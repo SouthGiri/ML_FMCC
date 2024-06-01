@@ -1,0 +1,6 @@
+*.txt
+*.npy
+*.xlsx
+*.ctl
+
+raw16k/
