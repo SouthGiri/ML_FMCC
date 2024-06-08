@@ -1,11 +1,12 @@
 # INU Machine Learning Final Project
 ## Female-Male Classification Challenge 
-1. 실행 설명서 `README.md`
-2. 학습용 코드 `FMCC_Train.ipynb`
-3. 테스트용 코드 `FMCC_Test.ipynb`
-4. 학습된 모델 `voting_classifier.pkl`
-5. 테스트 결과 파일 `과탑_test_results.txt`
-6. 논문 형식 결과 보고서 
+
+### (1) 학습용 코드 `FMCC_Train.ipynb`
+### (2) 모델 `voting_classifier.pkl`
+### (3) 테스트용 코드 `FMCC_Test.ipynb`
+### (4) 테스트 결과 파일 `과탑_test_results.txt`
+### (5) 실행 설명서 `README.md`
+### (6) 논문 형식 결과 보고서 
 
 ## Explaination of FMCC_Test.ipynb
 - `FMCC_Test.ipynb` 파일과 데이터셋 디렉토리인 `raw16k` 를 같은 디렉토리에 위치시킨다.
