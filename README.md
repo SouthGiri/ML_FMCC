@@ -10,12 +10,13 @@
 ## Explaination of FMCC_Test.ipynb
 - `FMCC_Test.ipynb` 파일과 데이터셋 디렉토리인 `raw16k` 를 같은 디렉토리에 위치시킨다.
 ### 0. Install required library
+- `FMCC_Test.ipynb` 파일을 실행하기 위한 라이브러리를 설치한다.
 ### 1. Preprocess data
-- `raw16k` 안의 `fmcc_test.ctl` 파일을 읽어 데이터 전처리 과정을 거친다. 
+- `fmcc_test.ctl` 파일을 읽어 `raw16k` 안의 테스트 데이터를 전처리한다.
 ### 2. Load trained model
-- `FMCC_Train.ipynb` 파일을 통해 저장된 모델을 로드한다.
+- 미리 학습되어 저장된 `voting_classifier.pkl` 모델을 로드한다.
 ### 3. Predict & Create result file
-- `voting_classifier.pkl` 모델로 테스트 데이터를 추론하고 perl 스크립트 파일을 실행하기 위한 result.txt 를 생성한다.
+- 로드한 모델로 테스트 데이터를 추론하고 perl 스크립트 파일을 실행하기 위한 result 파일을 생성한다.
 ## Required library
 > pickle\
 > Train 후 파이썬 객체 파일로 저장된 모델을 불러와 Test에 이용한다.
