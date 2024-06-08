@@ -3,7 +3,7 @@
 1. 실행 설명서 `README.md`
 2. 학습용 코드 `FMCC_Train.ipynb`
 3. 테스트용 코드 `FMCC_Test.ipynb`
-4. 학습된 모델 `svm_classifier.pkl`
+4. 학습된 모델 `voting_classifier.pkl`
 5. 테스트 결과 파일 `과탑_test_results.txt`
 6. 논문 형식 결과 보고서 
 
@@ -13,7 +13,7 @@
 ### 1. Preprocess data
 - `raw16k` 안의 `fmcc_test.ctl` 파일을 읽어 데이터 전처리 과정을 거친다. 
 ### 2. Load trained model
-- `FMCC_Train.ipynb` 통해 저장된 모델을 로드한다.
+- `FMCC_Train.ipynb` 파일을 통해 저장된 모델을 로드한다.
 ### 3. Predict & Create result file
 - 로드된 모델로 테스트 데이터를 추론하고 perl 스크립트 파일을 실행하기 위한 result file 을 생성한다.
 ## Required library

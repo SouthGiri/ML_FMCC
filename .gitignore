@@ -2,5 +2,6 @@
 *.npy
 *.xlsx
 *.ctl
+svm_classifier.pkl
 
 raw16k/
