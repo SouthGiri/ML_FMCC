@@ -1,6 +1,6 @@
 # INU Machine Learning Final Project
 ### Team : SouthGiri / d0v0h
-## Female-Male Classification Challenge 
+## FMCC: Female-Male Classification Challenge 
 
 #### (1) 학습용 코드 `FMCC_Train.ipynb`
 #### (2) 모델 `voting_classifier.pkl`
